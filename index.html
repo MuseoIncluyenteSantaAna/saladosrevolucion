@@ -95,7 +95,7 @@
   <h2>Bienvenidos a Nuestra Sala de la Revolución Mexicana</h2>
   <p>¡Descubre la historia ancestral de Santa Ana del Valle en el Museo Comunitario Shan Dany!</p>
   <p></p>Te invitamos a sumergirte en las raíces históricas de nuestro querido pueblo. Desde tiempos remotos, Santa Ana del Valle ha sido testigo de la ocupación humana en el Valle de Oaxaca. Fue Ignacio Bernal, el reconocido arqueólogo, quien descubrió por primera vez el sitio prehispánico de Santa Ana del Valle entre 1955 y 1960.</p>
-  <button class="button" onclick="openPopup(10)">INTRODUCCIÓN</button>
+  <button class="button" onclick="openPopup(1)">INTRODUCCIÓN</button>
   </section>
 
   <div id="popup" class="section" style="display: none;">
@@ -112,11 +112,6 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
-      <li data-target="#myCarousel" data-slide-to="5"></li>
-      <li data-target="#myCarousel" data-slide-to="6"></li>
-      <li data-target="#myCarousel" data-slide-to="7"></li>
-      <li data-target="#myCarousel" data-slide-to="8"></li>
     </ol>
 
     <div class="carousel-inner" role="listbox">
@@ -124,55 +119,25 @@
       <div class="item active">
         <img src="11.jpg" alt="Image 1" class="carousel-image">
         <div class="carousel-caption">
-          <button class="button" onclick="openPopup(1)">Más información</button>
+          <button class="button" onclick="openPopup(2)">Más información</button>
         </div>
       </div>
       <div class="item">
         <img src="12.jpg" alt="Image 2" class="carousel-image">
         <div class="carousel-caption">
-          <button class="button" onclick="openPopup(2)">Más información</button>
+          
         </div>
       </div>
       <div class="item">
         <img src="13.jpg" alt="Image 3" class="carousel-image">
         <div class="carousel-caption">
-          <button class="button" onclick="openPopup(3)">Más información</button>
+          
         </div>
       </div>
       <div class="item">
         <img src="14.jpg" alt="Image 4" class="carousel-image">
         <div class="carousel-caption">
-          <button class="button" onclick="openPopup(4)">Más información</button>
-        </div>
-      </div>
-      <div class="item">
-        <img src="15.jpg" alt="Image 5" class="carousel-image">
-        <div class="carousel-caption">
-          <button class="button" onclick="openPopup(5)">Más información</button>
-        </div>
-      </div>
-      <div class="item">
-        <img src="16.jpg" alt="Image 6" class="carousel-image">
-        <div class="carousel-caption">
-        <button class="button" onclick="openPopup(6)">Más información</button>
-        </div>
-      </div>
-      <div class="item">
-        <img src="17.jpg" alt="Image 7" class="carousel-image">
-        <div class="carousel-caption">
-        <button class="button" onclick="openPopup(7)">Más información</button>
-        </div>
-      </div>
-      <div class="item">
-        <img src="31.jpg" alt="Image 8" class="carousel-image">
-        <div class="carousel-caption">
-        <button class="button" onclick="openPopup(8)">Más información</button>
-        </div>
-      </div>
-      <div class="item">
-        <img src="32.jpg" alt="Image 9" class="carousel-image">
-        <div class="carousel-caption">
-        <button class="button" onclick="openPopup(9)">Más información</button>
+          
         </div>
       </div>
     </div>
@@ -204,54 +169,14 @@
       var title, description, audioFile;
       switch (id) {
         case 1:
-          title = "Modelado y moldeado.";
-          description = "Las principales técnicas de elaboración cerámica eran el modelado y el moldeado, utilizadas para fabricar rápidamente piezas legando incluso a realizar piezas en serie; constantemente se encuentran elementos de alfarería prehispánica de gran tamaño, las cuales pertenecieron a piezas de gran tamaño muchas de más de un metro de altura. Estas piezas muestran el grado de refinamiento alcanzados por los alfareros zapotecas.";
-          audioFile = "Foto1-Sala1-SAV.mp3";
+          title = "LA REVOLUCIÓN EN SANTA ANA";
+          description = "Durante la Revolución de 1910-1920, la comunidad de Santa Ana del Valle en Oaxaca se vio afectada por las rebeliones antiporfiristas y posteriormente por los enfrentamientos entre las fuerzas serranas y las tropas carrancistas. El Batallón Sierra Juárez, formado por voluntarios serranos, jugó un papel importante en la defensa de la región. Sin embargo, la sequía y los combates dificultaron la vida en Santa Ana, obligando a los habitantes a refugiarse en el Rancho Las Carretas.";
+          audioFile = "revolucion.mp3";
           break;
         case 2:
-          title = "Cráneo";
-          description = "EI cráneo que observamos fue de un hombre de edad avanzada, esto lo sabemos debido a que sus dientes mostraban un avanzado estado de desgaste, principalmente en sus muelas donde inclusive han desaparecido las coronas de los dientes. Otra característica interesante es la deformación craneana qué nos muestra una de las prácticas mesoamericanas más extendidas. La deformación se lograba mediante la colocación de bandas en la cabeza de los niños mientras iban creciendo.";
-          audioFile = "Foto2-Sala1-SAV.mp3";
-          break;
-        case 3:
-          title = "Cerámica doméstica";
-          description = "La mayor parte de las piezas de barro encontradas en contextos arqueológicos son las relacionadas con la vajilla doméstica, principalmente usados en la preparación y servicio de alimentos. Muchas veces se encuentran estas piezas en contextos funerarios debido a que una vez muerta una persona se le colocaban ofrendas para la otra vida.";
-          audioFile = "Foto3-Sala1-SAV.mp3";
-          break;
-        case 4:
-          title = "Cajetes para el cordón umbilical";
-          description = "Una de las costumbres religiosas documentadas en el mundo prehispánico, es la relacionada con los ritos de paso de una persona, estas son las distintas prácticas y costumbres practicadas por una persona en momentos claves de su vida, el nacimiento, el matrimonio o la muerte son los ejemplos más importantes. Arqueológicamente en el cerro Danush se han identificado este tipo de ritos, en este ejemplo se muestra un Patojo localizado bajo una casa el cual estaba cubierto por un plato, estos servían para colocar el cordón umbilical de un recién nacido, la razón estaba relacionada con la conservación del tonalli o pèe, el cual se encontraba en todas las partes del cuerpo.";
-          audioFile = "cajetes.mp3";
-          break;
-        case 5:
-          title = "Piedras grabadas en el templo";
-          description = "Al momento de la conquista española, muchos de los edificios civiles y religiosos fueron desmantela dos para la construcción de los nuevos recintos para el culto católico. Ejemplos de los viejos monumentos aún se pueden encontrar en sitios como Teotitlán del Valle y Macuilxochitl, en este templo se aprecian dos piedras labradas que probablemente formaban parte de alguna de las estructuras del sitio durante el periodo Clásico Tardio (650-850 d.C.). En esta época se realizaban muchas piezas que mostraban genealogías de gobernantes con la finalidad de legitimar los gobiernos locales.";
-          audioFile = "piedras.mp3";
-          break;
-         case 6:
-          title = "Arquitectura Posclásica e Influencia Mixteca- Piedras Grabadas con Grecas";
-          description = "Con el desarrollo político y crecimiento en influencia de los grupos mixtecos se abandona el estilo jeroglífico predominante y las inscripciones se tornan mucho más abstractas desarrollando paulatinamente dos diseños conocidos como grecas las cuales se han registrado en sitios como Yagul Teotitlán del Valle y en Mitla donde alcanzaron su mayor refinamiento";
-          audioFile = "arqui.mp3";
-          break;
-        case 7:
-          title = "Hilado";
-          description = "Una de las actividades económicas más importantes en los pueblos del valle de Tlacolula fue y sigue siendo la producción textil, Macuilxochitl no es la excepción pues tiene una larga tradición de tejidos artesanales. Este tipo de artesanías la podemos encontrar en el registro arqueológico en la forma de los implementos necesarios para el tejido como: malacates usados para fabricar el hilo; agujas asadas para incrustar el hilo en los telares, e inclusive se han encontrado trazas de tejidos prehispánicos.";
-          audioFile = "hilado.mp3";
-          break;
-        case 8:
-          title = "Acompañantes";
-          description = "Los llamados acompañantes, reciben este nombre debido a que se encuentran acompañando a una persona difunta en su rumba, son encontrados desde el Preclásico terminal (0-250 d.C.), y hasta el Clásico Tardío (650-850 d.C.), por lo general, presentan una mitra decorada con atributos de algún dios. En el ejemplo que se muestra, encontramos un acompañante con la representación de Pitao Coçobi, dios del maíz, y dos urnas prácticamente iguales con el tocado del Glifo C. Estas piezas caracterizan a un personaje en cunclillas con las manos sobre las rodillas y las piernas cruzadas en flor de loto u al estilo oriental. En su tocado porta el emblema del dios Cocijo, el glifo C, lo que distingue a esta figura es una máscara bucal en forma de mandíbula de serpiente, en este caso únicamente en la mandíbula superior, por lo que también está relacionado con el dios del viento; Pichijlla.";
-          audioFile = "acompa.mp3";
-          break;
-        case 9:
-          title = "Cara con deformación dental y diente";
-          description = "Estas piezas nos muestran otro elemento ritual de los antiguos pueblos mesoamericanos, la deformación dentaria; esta se lograba tallando, perforando los dientes e incluso se llegaba a incrustar piedras preciosas a manera de adorno. Esta práctica únicamente era llevada a cabo por el sector noble de la sociedad y funcionaba como un indicador de estatus social.";
-          audioFile = "caracondef.mp3";
-          break;
-        case 10:
-          title = "INTRODUCCIÓN A SANTA ANA DEL VALLE";
-          description = " LA HISTORIA DE SANTA ANA DEL VALLE SE REMONTA A ÉPOCAS MUY TEMPRANAS DE OCUPACIÓN HUMANA EN EL VALLE DE OAXACA, IGNACIO BERNAL FUE EL PRIMER ARQUEÓLOGO QUE RECONOCIOÓ EL SITIO PREHISPÁNICO DE SANTA ANA DEL VALLE ENTRE 1955 Y 1960 EN ENERO DE 1985 SE REALIZARON EXCAVACIONES FRENTE AL PALACIO MUNICIPAL. LOS MATERIALES ENCONTRADOS NOS PERMITEN SABER QUE EL ACTUAL POBLADO DE SANTA ANA SE ENCUENTRA CONSTRUIDO SOBRE UN ASENTAMIENTO PREHISPÁNICO DE ÉPOCA TEMPRANA (MONTE ALBÁN 1600 a.C.- 100 a.C.). MISMO QUE TENÍA UN CARACTER DE ALDEA Y QUE DEPENDÍA POLITICAMENTE DE OTROS CENTROS MAYORES COMO DAINZU O MONTE ALBÁN ESTAS ALDEAS TEMPRANAS EN LOS VALLES CENTRALES FUERON LA BASE PARA FORMAR POSTERIORMENTE LA CULTURA ZAPOTECA.";
-          audioFile = "SantaAna.mp3";
+          title = "RELATOS";
+          description = "Guillermo Meixueiro, Isaac Ibarra y otros solicitaron voluntarios. Juan Clemente Garcia, Alejo Morales y Marcos Morales fueron los primeros en unirse. Pelearon contra Luis Jimenez Figueroa en 1914 y aprendieron a protegerse y proteger a sus compatriotas. Posteriormente, participaron en guerrillas con experiencia y confianza en sí mismos. En otro relato, el teniente informó sobre la llegada de la guerra de los carrancistas y distribuyó armas a los soldados, a pesar de que algunos no sabían cómo usarlas. En 1920, el teniente Juan Bautista García fue asesinado debido a la imprudencia de un miembro de su pelotón que perdió el cuerno de toro con el que se daba la señal de reunión, siendo encontrado por los carrancistas, quienes lo utilizaron para atraer y asesinar a Juan Bautista.";
+          audioFile = "relatos.mp3";
           break;
       }
       $("#popup-title").text(title);
